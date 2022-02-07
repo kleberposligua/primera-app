@@ -5,7 +5,7 @@ function Hola(props) {
         <div>
             <h1>PUCESE</h1>
             <h2>{props.mensaje}</h2>
-            <h3>Mi primer componente react!!!</h3>
+            <h3>{props.pie}</h3>
         </div>
     );
 }
