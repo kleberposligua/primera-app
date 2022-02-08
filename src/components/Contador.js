@@ -21,9 +21,9 @@ function Contador() {
     return (
         <div>
             <h1>Contador: {cont}</h1>
-            <button onClick={ incrementar }>Incrementar</button>
-            <button onClick={ decrementar }>Decrementar</button>
-            <button onClick={ reset }>Reset</button>
+            <button className='btn btn-success' onClick={ incrementar }>Incrementar</button>
+            <button className='btn btn-success' onClick={ decrementar }>Decrementar</button>
+            <button className='btn btn-danger' onClick={ reset }>Reset</button>
         </div>
     );
 }
